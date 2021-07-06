@@ -29,7 +29,7 @@ class Solution {
 //The first node in the range we encounter will become tail of the reversed list
                 if(rTail == null)
                     rTail = node;
-                
+                 
                 //making the current node head of the reversed linkedList
                 node.next = rHead;
                 rHead = node;
