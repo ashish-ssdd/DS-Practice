@@ -28,7 +28,7 @@ class Solution {
                 node.next =null;
                 //now the node is pointing to the previous node
                 node = prev;
-            }
+            } 
             //if no changes were made prev will point to next node 
             //if any node was deleted prev will point to itself as we have changed node to prev
             prev= node;
